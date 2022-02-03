@@ -1,8 +1,8 @@
 import React from 'react';
 import {BrowserRouter as Router, HashRouter, Switch, Route} from "react-router-dom";
-import LeafletMap from ".././Map/leafletMap";
-import ReactMap from ".././Map/reactMap";
-import LeafletTest from "../Map/leafletTest";
+import LeafletMap from "../Pages/leafletMap";
+import ReactMap from "../Pages/reactMap";
+import LeafletTest from "../Pages/leafletTest";
 
 function RouterS(props) {
     return (
