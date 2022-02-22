@@ -1,26 +1,36 @@
 import React from 'react';
-import {BrowserRouter as Router, HashRouter, Switch, Route} from "react-router-dom";
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import LeafletMap from "../Pages/leafletMap";
 import ReactMap from "../Pages/reactMap";
 import LeafletTest from "../Pages/leafletTest";
+import SignUp from "../Pages/login/signUp";
+import SignIn from "../Pages/login/signIn";
+import IndexPages from "../Pages/indexPages";
+import LayoutNav from "./layoutNav"
 
 function RouterS(props) {
     return (
         <div>
+            <BrowserRouter>
             <Switch>
                 <Route path="/leafletMap">
                     <LeafletMap/>
                 </Route>
-                <Route path="/reactMap">
-                    <ReactMap/>
+                <Route path="/layouts">
+                    <LayoutNav/>
                 </Route>
-                <Route path="/leafletTest">
-                    <LeafletTest/>
+
+                <Route path="/signIn">
+                    <SignIn/>
+                </Route>
+                <Route path="/signUp">
+                    <SignUp/>
                 </Route>
                 <Route path="/">
-                    <div style={{justifyContent:'center', alignItems:'center', height:'100vh', display:"flex", fontSize:'100px', fontWeight:'bold'}}> Yaylov 1.1</div>
+                     <IndexPages/>
                 </Route>
             </Switch>
+            </BrowserRouter>
         </div>
     );
 }

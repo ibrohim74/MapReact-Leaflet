@@ -1,0 +1,16 @@
+.Header {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*.Header__title {*/
+/*  text-align: center;*/
+/*  font-size: 2rem;*/
+/*  margin-bottom: 1.5rem;*/
+/*}*/
+
+
+

@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    color: #0c5460;
+}
+.mainL{
+    width: 100%;
+    height: 100%;
+}
+.brand{
+    padding: 2px 0;
+}
+.brand img{
+    width: 60px;
+}
+.brand p{
+    text-align: center;
+    font-size: 13px;
+}
+ul,li{
+    list-style: none;
+}
+.listL{
+    margin-top: 0;
+}
+.sidebar{
+    text-align: center;
+    overflow: hidden;
+    font-size: 40px;
+    padding: 5px;
+    display: block;
+    background: #29bb89 ;
+    /*background: #1e6f5c;*/
+    width: 5%;
+    float: left;
+    height: 100vh;
+}
+.content{
+    width: 95%;
+    height: 100%;
+    float: right;
+}
+@media only screen and (max-width: 1024px) {
+   .sidebar{
+       width: 10%;
+       font-size: 20px;
+   }
+    .content{
+        width: 90%;
+    }
+    .brand img{
+        width: 40px;
+    }
+    .brand p{
+        font-size: 10px;
+    }
+
+}
+@media only screen and (min-width: 1024px){
+    .search-box{
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+}
+
+
+@media screen and (orientation: portrait){
+    .mainL{
+        display: none;
+    }
+    .rotate{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        text-align: center;
+    }
+}
+
+@media screen and (orientation: landscape){
+    .rotate{
+        display: none;
+    }
+
+}

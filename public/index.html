@@ -9,6 +9,13 @@
             name="description"
             content="Web site created using create-react-app"
         />
+
+        <link rel="stylesheet" type="text/css" href="./basic/css/normalize.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="./basic/libs/bootstrap4/bootstrap.min.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="./basic/css/slick.css" media="screen">
+        <link rel="stylesheet icon" type="text/css" href="./basic/css/style.css" media="screen">
+
+
         <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
         <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -58,10 +65,50 @@
         <!-- Place this tag in your head or just before your close body tag. -->
         <script async defer src="https://buttons.github.io/buttons.js"></script>
         <script src="https://apis.google.com/js/platform.js"></script>
+        <style>
+            body{height:100%;margin:0;padding:0;width:100%}body{font-family:Roboto,sans-serif;font-size:13px;-webkit-font-smoothing:antialiased}.ipl-progress-indicator.available{opacity:0}.ipl-progress-indicator{background-color:#f5f5f5;width:100%;height:100%;position:fixed;opacity:1;pointer-events:none;-webkit-transition:opacity cubic-bezier(.4,0,.2,1) 436ms;-moz-transition:opacity cubic-bezier(.4,0,.2,1) 436ms;transition:opacity cubic-bezier(.4,0,.2,1) 436ms;z-index:9999}.insp-logo-frame{display:-webkit-flex;display:-moz-flex;display:flex;-webkit-flex-direction:column;-moz-flex-direction:column;flex-direction:column;-webkit-justify-content:center;-moz-justify-content:center;justify-content:center;-webkit-animation:fadein 436ms;-moz-animation:fadein 436ms;animation:fadein 436ms;height:98%}.insp-logo-frame-img{width:112px;height:112px;-webkit-align-self:center;-moz-align-self:center;align-self:center;border-radius:50%}.ipl-progress-indicator-head{background-color:#c6dafc;height:4px;overflow:hidden;position:relative}.ipl-progress-indicator .first-indicator,.ipl-progress-indicator .second-indicator{background-color:#28a745;bottom:0;left:0;right:0;top:0;position:absolute;-webkit-transform-origin:left center;-moz-transform-origin:left center;transform-origin:left center;-webkit-transform:scaleX(0);-moz-transform:scaleX(0);transform:scaleX(0)}.ipl-progress-indicator .first-indicator{-webkit-animation:first-indicator 2s linear infinite;-moz-animation:first-indicator 2s linear infinite;animation:first-indicator 2s linear infinite}.ipl-progress-indicator .second-indicator{-webkit-animation:second-indicator 2s linear infinite;-moz-animation:second-indicator 2s linear infinite;animation:second-indicator 2s linear infinite}.ipl-progress-indicator .insp-logo{animation:App-logo-spin infinite 20s linear;border-radius:50%;-webkit-align-self:center;-moz-align-self:center;align-self:center}@keyframes App-logo-spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}@-webkit-keyframes fadein{from{opacity:0}to{opacity:1}}@-moz-keyframes fadein{from{opacity:0}to{opacity:1}}@keyframes fadein{from{opacity:0}to{opacity:1}}@keyframes first-indicator{0%{transform:translate(0) scaleX(0)}25%{transform:translate(0) scaleX(.5)}50%{transform:translate(25%) scaleX(.75)}75%{transform:translate(100%) scaleX(0)}100%{transform:translate(100%) scaleX(0)}}@keyframes second-indicator{0%{transform:translate(0) scaleX(0)}60%{transform:translate(0) scaleX(0)}80%{transform:translate(0) scaleX(.6)}100%{transform:translate(100%) scaleX(.1)}}
+        </style>
     </head>
 
     <body>
         <noscript>You need to enable JavaScript to run this app.</noscript>
+
+
+        <div class="ipl-progress-indicator" id="ipl-progress-indicator">
+            <div class="ipl-progress-indicator-head">
+                <div class="first-indicator"></div>
+                <div class="second-indicator"></div>
+            </div>
+            <div class="insp-logo-frame">
+                <svg version="1.0" class="insp-logo-frame-img" xmlns="http://www.w3.org/2000/svg"
+                     width="500.000000pt" height="500.000000pt" viewBox="0 0 500.000000 500.000000"
+                     preserveAspectRatio="xMidYMid meet">
+
+                    <g transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)"
+                       fill="#28a745" stroke="none">
+                        <path d="M2325 4783 c-436 -38 -856 -197 -1198 -454 -478 -359 -796 -891 -887
+-1483 -19 -130 -20 -176 -20 -1296 0 -1027 2 -1165 16 -1198 33 -81 111 -131
+202 -132 91 0 161 42 205 125 l22 40 5 1185 c5 1184 5 1185 28 1285 32 140 58
+225 105 340 229 564 731 982 1327 1104 182 38 288 41 1262 41 l948 0 0 -937
+c0 -964 -4 -1082 -41 -1266 -75 -373 -290 -747 -571 -995 -147 -129 -246 -196
+-409 -277 -248 -122 -456 -177 -736 -194 -153 -10 -174 -15 -227 -62 -59 -51
+-79 -100 -74 -179 4 -80 35 -134 100 -177 38 -26 51 -28 151 -31 293 -10 668
+79 972 228 600 295 1047 843 1210 1485 72 284 70 238 70 1530 l0 1160 -22 42
+c-27 51 -82 96 -132 112 -28 8 -342 11 -1152 9 -613 -1 -1132 -3 -1154 -5z"/>
+                        <path d="M2319 3745 c-118 -16 -281 -70 -402 -132 -331 -171 -571 -491 -647
+-863 -20 -98 -20 -129 -20 -1231 0 -920 3 -1136 14 -1162 34 -83 115 -137 204
+-137 91 0 161 43 205 125 21 39 22 51 25 472 l3 433 454 0 c268 0 485 4 531
+11 167 23 372 103 527 206 99 66 261 230 330 334 99 150 164 313 199 497 10
+50 13 226 13 682 0 610 0 615 -22 655 -27 51 -57 79 -113 104 -44 20 -62 21
+-625 20 -419 -1 -607 -5 -676 -14z m986 -895 c0 -439 -1 -458 -22 -540 -73
+-276 -275 -487 -558 -581 -69 -23 -79 -24 -547 -27 l-478 -3 0 459 c0 425 1
+465 20 538 77 304 331 542 639 598 58 11 177 14 511 13 l435 -2 0 -455z"/>
+                    </g>
+                </svg>
+                <h1 style="text-align: center">Yaylov</h1>
+                <p style="text-align: center">uzdavyerloyiha.uz</p>
+            </div>
+        </div>
         <div id="root"></div>
         <!--
           This HTML file is a template.
@@ -98,5 +145,12 @@
         ></script>
 
         <script type="text/babel" src="../src/Pages/leafletTest.js"></script>
+
+
+
+        <script src="./basic/js/jquery-3.3.1.min.js"></script>
+        <script src="./basic/libs/bootstrap4/bootstrap.min.js"></script>
+        <script src="./basic/js/slick.min.js"></script>
+        <script src="./basic/js/script.js"></script>
     </body>
 </html>

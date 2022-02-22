@@ -58,6 +58,8 @@ const ReactMap = ({ coords, places, setCoords, setBounds, setChildClicked }) => 
             fillOpacity: 0.35
         });
         bermudaTriangle.setMap(map);
+
+
         var uzbekistan = new maps.Polygon({
             // paths:triangleCoords, uz,
             paths:uz,

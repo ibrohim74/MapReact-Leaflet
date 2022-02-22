@@ -3,7 +3,7 @@ import {Map, TileLayer,FeatureGroup, withLeaflet} from "react-leaflet/es/index"
 import { useRef } from "react";
 import "leaflet/dist/leaflet.css";
 import "./../index.css"
-import {EditControl} from "react-leaflet-draw";
+// import {EditControl} from "react-leaflet-draw";
 import PrintControlDefault from "react-leaflet-easyprint";
 import "leaflet/dist/leaflet.css";
 import "leaflet-draw/dist/leaflet.draw.css";
@@ -19,7 +19,7 @@ const LeafletTest = () =>{
     const ZOOM_LEVEL = 9;
     const mapRef = useRef();
     const printControllerRef = useRef();
-
+    // https://cloud.maptiler.com/maps/hybrid/
     const _onCreate = (e) =>{
         console.log(e)
 
@@ -68,29 +68,29 @@ const{
                 center={center}
                 zoom={ZOOM_LEVEL}
                 ref={mapRef}
+                
             >
 
-                <FeatureGroup>
-                    <EditControl
-                        position="topright"
-                        onCreated={_onCreate}
-                        onEdited={_onEdited}
-                        onDeleted={_onDeleted}
-                        draw={{
-                            rectangle: false,
-                            polyline: false,
-                            circle: false,
-                            circlemarker: false,
-                            marker: false,
-                        }}
-                    />
-                </FeatureGroup>
+                {/*<FeatureGroup>*/}
+                {/*    <EditControl*/}
+                {/*        position="topright"*/}
+                {/*        onCreated={_onCreate}*/}
+                {/*        onEdited={_onEdited}*/}
+                {/*        onDeleted={_onDeleted}*/}
+                {/*        draw={{*/}
+                {/*            rectangle: false,*/}
+                {/*            polyline: false,*/}
+                {/*            circle: false,*/}
+                {/*            circlemarker: false,*/}
+                {/*            marker: false,*/}
+                {/*        }}*/}
+                {/*    />*/}
+                {/*</FeatureGroup>*/}
 
 
 
 
-
-                <TileLayer url={"https://api.maptiler.com/maps/basic/256/{z}/{x}/{y}.png?key=BQ7Tkd3bApia7yVhAuC7"}
+                <TileLayer url={"https://api.maptiler.com/maps/hybrid/256/{z}/{x}/{y}.jpg?key=BQ7Tkd3bApia7yVhAuC7"}
                            attribution={'&copy; <a href="">MapTiler</a> &copy; <a href="">OpenStreetMap</a> contributors'}/>
 
 
@@ -109,7 +109,7 @@ const{
                                exportOnly
                            />
             </Map>
-            <pre className="text-left">{JSON.stringify(mapLayer, 0, 2)}</pre>
+            {/*<pre className="text-left">{JSON.stringify(mapLayer, 0, 2)}</pre>*/}
         </>
     )
 }
