@@ -10,15 +10,16 @@ import Weather from "../Pages/weather/weather";
 import LeafletTest from "../Pages/leafletTest";
 import Plant from "../Pages/plant";
 import {IoWaterOutline} from "react-icons/io5";
-import IndexW from "../Pages/weather/weather-app-main/src/indexW";
-// import {IoWaterOutline} from "react-icons";
-
+import {auth} from "../Pages/login/fireBase";
+import {signOut} from "firebase/auth"
 function LayoutNav() {
+    const logout = async () =>{
+        await signOut(auth)
+    }
     return (<>
 
 
         <div className="mainL">
-
             <div className="sidebar">
                 <div className="brand">
                     <a href={"/"}><img src={require("../resources/images/logo2.png")} alt=""/><br/>
@@ -37,7 +38,7 @@ function LayoutNav() {
                     <hr/>
                     <li><NavLink to={'/layouts/test'}><SiMinetest style={{color: "#343434"}}/></NavLink></li>
                     <hr/>
-                    <li><a href={'/layouts/test'}><SiMinetest style={{color: "#343434"}}/></a></li>
+                    <li><button onClick={logout}>LogOut</button> </li>
                 </ul>
             </div>
             <div className="content">
@@ -54,6 +55,7 @@ function LayoutNav() {
                 <Route path={'/layouts/plant'}>
                     <Plant/>
                 </Route>
+
             </div>
         </div>
         <div className="rotate"><h1>Sistemadan samarali foydalanish uchun telefoningizni qayiring </h1>

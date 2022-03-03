@@ -3,7 +3,6 @@ import React from 'react';
 import "antd/dist/antd.css"
 import RouterS from "./components/routerS";
 
-
 class  App extends React.Component{
     authenticate(){
         return new Promise(resolve => setTimeout(resolve, 2000)) // 2 seconds
@@ -26,6 +25,7 @@ class  App extends React.Component{
         return (
             <div>
                 <RouterS/>
+
             </div>
 
         );

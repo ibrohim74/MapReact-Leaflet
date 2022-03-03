@@ -53,7 +53,7 @@ class Plant extends Component {
         const polygonLength = geoJsonTest.properties.Майдо;
         const polygonHarvest = geoJsonTest.properties.Яйлов;
         const poliId= geoJsonTest.id;
-        layer.bindPopup("id"+poliId+ "<br>" + "Yaylov name: " + yaylovName + "<br>" + "polygon length: " + polygonLength + " <br>" + "Polygon harvest: " + polygonHarvest)
+        layer.bindPopup("id"+poliId)
         // console.log(polygonLength)
 
 

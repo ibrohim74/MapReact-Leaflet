@@ -75,7 +75,8 @@ class LeafletMap extends Component {
         const yaylovName = geoJsonTest.properties.Фойда;
         const polygonLength = geoJsonTest.properties.Майдо;
         const polygonHarvest = geoJsonTest.properties.Яйлов;
-        layer.bindPopup("Yaylov name: " + yaylovName + "<br>" + "polygon length: " + polygonLength + " <br>" + "Polygon harvest: " + polygonHarvest)
+        const poleId = geoJsonTest.id
+        layer.bindPopup("ID: "+poleId+"<br/>"+"Yaylov name: " + yaylovName + "<br>" + "polygon length: " + polygonLength + " <br>" + "Polygon harvest: " + polygonHarvest)
         // console.log(polygonLength)
 
 
