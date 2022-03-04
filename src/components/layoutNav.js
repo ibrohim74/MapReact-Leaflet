@@ -12,6 +12,8 @@ import Plant from "../Pages/plant";
 import {IoWaterOutline} from "react-icons/io5";
 import {auth} from "../Pages/login/fireBase";
 import {signOut} from "firebase/auth"
+import Setting from "../Pages/setting";
+import {AiOutlineSetting} from "react-icons/ai";
 function LayoutNav() {
     const logout = async () =>{
         await signOut(auth)
@@ -27,7 +29,6 @@ function LayoutNav() {
                     </a>
                 </div>
                 <ul className="listL">
-                    <hr/>
                     <li><NavLink to='/layouts/leafletMap'><GoHome style={{color: "#343434"}} value={"karta"}/></NavLink>
                     </li>
                     <hr/>
@@ -38,7 +39,9 @@ function LayoutNav() {
                     <hr/>
                     <li><NavLink to={'/layouts/test'}><SiMinetest style={{color: "#343434"}}/></NavLink></li>
                     <hr/>
-                    <li><button onClick={logout}>LogOut</button> </li>
+                    <li><NavLink to={'/layouts/setting'}><AiOutlineSetting style={{color: "#343434"}}/></NavLink></li>
+
+                    {/*<li><button onClick={logout}>LogOut</button> </li>*/}
                 </ul>
             </div>
             <div className="content">
@@ -54,6 +57,9 @@ function LayoutNav() {
                 </Route>
                 <Route path={'/layouts/plant'}>
                     <Plant/>
+                </Route>
+                <Route path={'/layouts/setting'}>
+                    <Setting/>
                 </Route>
 
             </div>

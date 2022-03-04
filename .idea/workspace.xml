@@ -2,142 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea7ef13b-866a-42fd-ad78-b07ca73be117" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/node.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/login/fireBase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/_gdb.DESKTOP-O2LIKDF.9760.576.sr.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000001.TablesByName.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000001.freelist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000001.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000001.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000001.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000002.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000002.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000003.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000003.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000003.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000004.CatItemsByPhysicalName.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000004.CatItemsByType.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000004.FDO_UUID.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000004.freelist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000004.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000004.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000004.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000004.spx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000005.CatItemTypesByName.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000005.CatItemTypesByParentTypeID.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000005.CatItemTypesByUUID.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000005.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000005.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000005.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000006.CatRelsByDestinationID.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000006.CatRelsByOriginID.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000006.CatRelsByType.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000006.FDO_UUID.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000006.freelist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000006.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000006.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000006.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000007.CatRelTypesByBackwardLabel.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000007.CatRelTypesByDestItemTypeID.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000007.CatRelTypesByForwardLabel.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000007.CatRelTypesByName.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000007.CatRelTypesByOriginItemTypeID.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000007.CatRelTypesByUUID.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000007.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000007.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000007.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000009.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000009.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000009.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000009.spx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000000a.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000000a.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000000a.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000000a.spx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000012.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000012.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000012.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000012.spx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000015.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000015.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000015.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000015.spx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001a.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001a.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001a.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001a.spx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001b.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001b.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001b.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001b.spx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001c.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001c.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001c.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001c.spx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001d.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001d.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001d.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001e.freelist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001e.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001e.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001e.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001f.band_index.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001f.blk_key_index.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001f.col_index.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001f.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001f.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001f.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a0000001f.row_index.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000020.freelist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000020.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000020.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/a00000020.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/gdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Yaylovlar.gdb/timestamps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storge" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/setting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/setting.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/indexPages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/indexPages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/leafletMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/leafletMap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/leafletTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/leafletTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/login/signIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/login/signIn.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/login/signUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/login/signUp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/plant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/plant.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/api/forwardGeocoding.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/api/reverseGeocoding.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/api/weatherAndForecast.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/components/Footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/components/Forecast.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/components/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/components/Loader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/components/Search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/components/Warning.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/components/Weather.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/components/WeatherAndForecast.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/img/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/img/heart.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/indexW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/styles/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/styles/Footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/styles/Forecast.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/styles/Header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/styles/Loader.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/styles/Search.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/styles/Warning.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/styles/Weather.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/weather/weather-app-main/src/styles/WeatherAndForecast.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layoutNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layoutNav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routerS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/routerS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,8 +22,8 @@
       <list>
         <option value="tsconfig.json" />
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -290,7 +162,9 @@
       <workItem from="1645980959996" duration="7936000" />
       <workItem from="1646203679402" duration="1214000" />
       <workItem from="1646207982296" duration="1205000" />
-      <workItem from="1646289173793" duration="861000" />
+      <workItem from="1646289173793" duration="2322000" />
+      <workItem from="1646317356826" duration="674000" />
+      <workItem from="1646373044146" duration="7424000" />
     </task>
     <servers />
   </component>
