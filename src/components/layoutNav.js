@@ -14,6 +14,7 @@ import {auth} from "../Pages/login/fireBase";
 import {signOut} from "firebase/auth"
 import Setting from "../Pages/setting";
 import {AiOutlineSetting} from "react-icons/ai";
+import Charts from "../Pages/Charts";
 function LayoutNav() {
     const logout = async () =>{
         await signOut(auth)
@@ -53,7 +54,7 @@ function LayoutNav() {
                     <Weather/>
                 </Route>
                 <Route path={'/layouts/test'}>
-                    <LeafletTest/>
+                    <Charts/>
                 </Route>
                 <Route path={'/layouts/plant'}>
                     <Plant/>

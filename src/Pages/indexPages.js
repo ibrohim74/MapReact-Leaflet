@@ -1,7 +1,28 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {NavLink, useLocation} from "react-router-dom";
+import {Button, Modal} from "antd";
+import {CCard, CCardBody, CCardHeader, CCol} from "@coreui/react";
+import {CChartDoughnut, CChartPie,} from '@coreui/react-chartjs'
+import { Image } from 'antd';
+import "../index.css"
+const IndexPages=(props) =>{
+    const [isModalVisible, setIsModalVisible] = useState(false);
 
-function IndexPages(props) {
+    const showModal = () => {
+        setIsModalVisible(true);
+    };
+
+    const handleOk = () => {
+        setIsModalVisible(false);
+    };
+
+    const handleCancel = () => {
+        setIsModalVisible(false);
+    };
+
+    const getPhp = ()=>{
+        fetch("")
+    }
 
     return (
         <div>
@@ -137,25 +158,14 @@ function IndexPages(props) {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 title">
-                                <h2>Hamkor tashkilotlar</h2>
+                                <h2>Hamkor tashkilotlar
+                                    <br/>
+                                    <p>Qishloq xo'jaligi vazirligi "O'zdavyerloyiha" davlat ilmiy loyihalash instituti.</p>
+                                </h2>
                             </div>
                         </div>
-                        <div className="partners-block">
-                            <div className="partners-item">
-                                <img src={require("../resources/images/partners1.jpg")} alt=""/>
-                            </div>
-                            <div className="partners-item">
-                                <img src={require("../resources/images/partners2.jpg")} alt=""/>
-                            </div>
-                            <div className="partners-item">
-                                <img src={require("../resources/images/partners4.png")} alt=""/>
-                            </div>
-                            <div className="partners-item">
-                                <img src={require("../resources/images/partners5.jpg")} alt=""/>
-                            </div>
-                            <div className="partners-item">
-                                <img src={require("../resources/images/partners6.jpg")} alt=""/>
-                            </div>
+                        <div className="partners-item" >
+                            <img src={require("../resources/photo1646892652-removebg-preview.png")} alt="" />
                         </div>
                     </div>
                 </section>
@@ -170,17 +180,42 @@ function IndexPages(props) {
                                     <p>Yaylovlarni masofadan turib boshqarishni joriy etish, monitoringini olib borish,
                                         takliflar va tavsiyalar ishlab chiqish. Yaylovlarni asrash, eko tizimni
                                         yaxshilashga qaratilgan muhim dasturiy portal.</p>
-                                    <a href="#!" className="green-btn">Batafsil</a>
+                                    {/*<button type="primary" className="green" onClick={showModal}>*/}
+                                    {/*    Open Modal*/}
+                                    {/*</button>*/}
+                                    {/*<Modal title="Basic Modal" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>*/}
+                                    {/*    <div>*/}
+                                    {/*        <CCol xs={10}>*/}
+                                    {/*            <CChartDoughnut*/}
+                                    {/*                data={{*/}
+                                    {/*                    labels: ['Yaylov №1', 'Yaylov 2№', 'Yaylov 3№', 'Yaylov 4№'],*/}
+                                    {/*                    datasets: [*/}
+                                    {/*                        {*/}
+                                    {/*                            backgroundColor: ['#41B883', '#E46651', '#00D8FF', '#DD1B16'],*/}
+                                    {/*                            data: [40, 20, 80, 10],*/}
+                                    {/*                        },*/}
+                                    {/*                    ],*/}
+                                    {/*                }}*/}
+                                    {/*            />*/}
+                                    {/*        </CCol>*/}
+                                    {/*    </div>*/}
+                                    {/*</Modal>*/}
+
+
                                 </div>
                             </div>
                             <div className="col-lg-6">
                                 <div className="pasture-img">
-                                    <div className="p-img-one">
-                                        <img src={require("../resources/images/pasture-monitoring-img1.png")} alt=""/>
-                                    </div>
-                                    <div className="p-img-two">
-                                        <img src={require("../resources/images/pasture-monitoring-img2.png")} alt=""/>
-                                    </div>
+                                    <Image.PreviewGroup>
+                                        <Image width={250} height={200} src={require("../resources/workerYaylov1.jpeg")} />
+                                        <Image
+                                            width={250}
+                                            height={200}
+                                            src={require("../resources/workerYaylov2.jpeg")}/>
+                                        <Image
+                                            width={500}
+                                            src={require("../resources/workerYaylov3.jpeg")}/>
+                                    </Image.PreviewGroup>
                                 </div>
                             </div>
                         </div>
@@ -208,7 +243,7 @@ function IndexPages(props) {
 								<img src={require("../resources/images/tasks-card-icon1.png" )}alt=""/>
 							</span>
                                     <div className="card-text">
-                                        <p>Donec tristique orci viverra, ultrices risus maximus, porttitor velit.</p>
+                                        {/*<p>Donec tristique orci viverra, ultrices risus maximus, porttitor velit.</p>*/}
                                     </div>
                                     <div className="card-link">
                                         <a href="#!" className="view-detail">View Details <img
@@ -224,7 +259,7 @@ function IndexPages(props) {
 								<img src={require("../resources/images/tasks-card-icon2.png")} alt=""/>
 							</span>
                                     <div className="card-text">
-                                        <p>Donec tristique orci viverra, ultrices risus maximus, porttitor velit.</p>
+                                        {/*<p>Donec tristique orci viverra, ultrices risus maximus, porttitor velit.</p>*/}
                                     </div>
                                     <div className="card-link">
                                         <a href="#!">View Details <img src={require("../resources/images/arrow-right.svg")} alt=""/></a>
@@ -238,7 +273,7 @@ function IndexPages(props) {
 								<img src={require("../resources/images/tasks-card-icon3.png")} alt=""/>
 							</span>
                                     <div className="card-text">
-                                        <p>Donec tristique orci viverra, ultrices risus maximus, porttitor velit.</p>
+                                        {/*<p>Donec tristique orci viverra, ultrices risus maximus, porttitor velit.</p>*/}
                                     </div>
                                     <div className="card-link">
                                         <a href="#!">View Details <img src={require("../resources/images/arrow-right.svg")} alt=""/></a>
@@ -265,8 +300,8 @@ function IndexPages(props) {
                                     </div>
                                     <div className="grow-text">
                                         <h4><span>Tabiiy </span>yaylovlar</h4>
-                                        <p>Vivamus nec purus non velit iaculis dapibus. Duis rhoncus metus a tortor
-                                            fermentum, eget placerat enim placerat.</p>
+                                        {/*<p>Vivamus nec purus non velit iaculis dapibus. Duis rhoncus metus a tortor*/}
+                                        {/*    fermentum, eget placerat enim placerat.</p>*/}
                                         <a href="https://drive.google.com/uc?export=download&id=1pvrbNwI4r_H29zi1kpBrP4yeW8svHQm7" className="view-detail">View detail <img
                                             src={require("../resources/images/arrow-right-green.svg")} alt=""/></a>
                                     </div>
@@ -279,8 +314,8 @@ function IndexPages(props) {
                                     </div>
                                     <div className="grow-text">
                                         <h4><span>Madaniy </span>yaylovlar</h4>
-                                        <p>Vivamus nec purus non velit iaculis dapibus. Duis rhoncus metus a tortor
-                                            fermentum, eget placerat enim placerat.</p>
+                                        {/*<p>Vivamus nec purus non velit iaculis dapibus. Duis rhoncus metus a tortor*/}
+                                        {/*    fermentum, eget placerat enim placerat.</p>*/}
                                         <a href="#!" className="view-detail">View detail <img
                                             src={require("../resources/images/arrow-right-green.svg")} alt=""/></a>
                                     </div>
@@ -293,8 +328,8 @@ function IndexPages(props) {
                                     </div>
                                     <div className="grow-text">
                                         <h4><span>O'rmon </span>xo'jaligi hududiga qarashli yaylovlar</h4>
-                                        <p>Vivamus nec purus non velit iaculis dapibus. Duis rhoncus metus a tortor
-                                            fermentum, eget placerat enim placerat.</p>
+                                        {/*<p>Vivamus nec purus non velit iaculis dapibus. Duis rhoncus metus a tortor*/}
+                                        {/*    fermentum, eget placerat enim placerat.</p>*/}
                                         <a href="#!" className="view-detail">View detail <img
                                             src={require("../resources/images/arrow-right-green.svg")} alt=""/></a>
                                     </div>
@@ -307,8 +342,8 @@ function IndexPages(props) {
                                     </div>
                                     <div className="grow-text">
                                         <h4><span>Yovvoyi </span>tabiat zonasidagi tabiiy landshaftlar</h4>
-                                        <p>Vivamus nec purus non velit iaculis dapibus. Duis rhoncus metus a tortor
-                                            fermentum, eget placerat enim placerat.</p>
+                                        {/*<p>Vivamus nec purus non velit iaculis dapibus. Duis rhoncus metus a tortor*/}
+                                        {/*    fermentum, eget placerat enim placerat.</p>*/}
                                         <a href="#!" className="view-detail">View detail <img
                                             src={require("../resources/images/arrow-right-green.svg")} alt=""/></a>
                                     </div>
@@ -331,23 +366,23 @@ function IndexPages(props) {
                             </div>
                             <div className="col-lg-8 form-right-col">
                                 <div className="form-right">
-                                    <form action="#!" id="form" method="get">
+                                    <form action="../telegram.php" id="form" method="post">
                                         <div className="row">
                                             <div className="col-lg-6">
                                                 <div className="form-group">
-                                                    <input type="text" name="Ismingiz" id="Ismingiz"
-                                                           placeholder="Ismingiz"/>
+                                                    <input type="text" name="user_name" id="Ismingiz"
+                                                           placeholder="Ismingiz" />
                                                 </div>
                                             </div>
                                             <div className="col-lg-6">
                                                 <div className="form-group">
-                                                    <input type="Elektron pochta" name="Elektron pochta"
+                                                    <input type="text" name="email_adres"
                                                            id="Elektron pochta" placeholder="Elektron pochta"/>
                                                 </div>
                                             </div>
                                             <div className="col-lg-12">
                                                 <div className="form-group">
-                                                    <textarea name="Habarlar" id="SMS habarlar"
+                                                    <textarea name="massage" id="SMS habarlar"
                                                               placeholder="Habarlar uchun"/>
                                                 </div>
                                             </div>

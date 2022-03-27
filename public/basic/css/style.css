@@ -396,11 +396,11 @@ header .head-right a.reg:hover {
 }
 /* =============== Pasture section ====================================================== */
 .pasture-monitoring {
-  background-image: url('../../images/pasture-bg.jpg');
+  /*background-image: url('../../images/pasture-bg.jpg');*/
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center left;
-  padding: 110px 0 160px;
+  padding: 110px 0 ;
 }
 .pasture-tasks .tasks-block span,
 .pasture-monitoring .pasture-block span {
@@ -415,12 +415,12 @@ header .head-right a.reg:hover {
 .pasture-monitoring .pasture-block p {
   font-size: 18px;
   line-height: 120%;
-  margin-bottom: 25px; 
+  /*margin-bottom: 25px; */
 }
 .pasture-tasks .tasks-block h2,
 .pasture-monitoring .title h2 {
   text-align: left;
-  margin-bottom: 35px;
+  /*margin-bottom: 35px;*/
 }
 .pasture-monitoring .pasture-img {
   position: relative;
@@ -448,6 +448,7 @@ header .head-right a.reg:hover {
   border-radius: 20px;
   width: 360px;
   height: 380px;
+
   overflow: hidden;
 }
 /* =============== End Pasture section ====================================================== */
@@ -760,6 +761,18 @@ footer .ftr-col .ftr-copyright p {
 
 
 
-/*@media only screen and (max-width: 480px){}*/
+@media (max-width: 1200px){
+
+}
+@media (max-width: 992px){
+    .pasture-img Image{
+        width: 100%;
+    }
+}
+@media (max-width: 767px){
+    .pasture-img Image{
+        width: 100%;
+    }
+}
 
 
